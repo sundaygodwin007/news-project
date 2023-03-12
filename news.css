@@ -1,0 +1,147 @@
+@media (max-width: 768px) {
+  nav .navbar-nav {
+    position: fixed;
+    background-color: #fff;
+    z-index: 9;
+    width: 100%;
+  }
+
+  nav .navbar-nav a {
+    text-align: center;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .row .read-link a {
+    text-decoration: none;
+    color: rgb(252, 229, 222);
+    background-color: rgb(240, 93, 81);
+    border-radius: 2px;
+  }
+
+  header .mobile-text {
+    background-color: rgb(0, 0, 26);
+    line-height: 2rem;
+    margin: 2rem 0;
+    padding: 2rem;
+  }
+
+  header .mobile-text h4 {
+    color: rgb(179, 135, 79);
+  }
+
+  header p {
+    color: rgb(152, 153, 173);
+    border-bottom: 1px solid#fff;
+  }
+
+  /* for the bright text */
+  .desktop-combined-bright {
+    display: none;
+  }
+
+  /*  */
+  section {
+    margin-top: 4rem;
+  }
+
+  section .image img {
+    width: 80%;
+    height: 14vh;
+    margin-bottom: 2rem;
+  }
+
+  section .grid1,
+  .grid2,
+  .grid3 {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+
+  section h4,
+  h3 {
+    font-size: 1rem;
+  }
+
+  section p {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    margin-top: 2rem;
+  }
+  .image img {
+    width: 100%;
+  }
+  .text {
+    background-color: rgb(0, 0, 26);
+    line-height: 2rem;
+  }
+
+  .desktop .text .private {
+    padding-bottom: 3rem;
+  }
+
+  .text p {
+    color: rgb(152, 153, 173);
+    border-bottom: 1px solid#fff;
+  }
+
+  .row .bright,
+  .dive {
+    margin-top: -10rem;
+  }
+
+  .row .read-link a {
+    text-decoration: none;
+    color: rgb(252, 229, 222);
+    background-color: rgb(240, 93, 81);
+    border-radius: 2px;
+  }
+
+  header .mobile,
+  .mobile-text {
+    display: none;
+  }
+
+  header .desktop h4 {
+    color: rgb(179, 135, 79);
+  }
+
+  /*  */
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5rem 0;
+  }
+
+  section .image img {
+    width: 80%;
+    height: 18vh;
+  }
+
+  section .grid1,
+  .grid2,
+  .grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 2rem;
+  }
+
+  section h4,
+  h3 {
+    font-size: 1rem;
+  }
+
+  section p {
+    font-size: 11px;
+  }
+}
